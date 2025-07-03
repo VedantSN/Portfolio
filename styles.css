@@ -352,26 +352,27 @@ section h2::after {
     align-items: center;
     gap: 0.75rem;
     margin-bottom: 0.5rem;
-    padding: 0.5rem 0.5rem;
-    background: none;
-    border: none;
+    padding: 0.75rem 1rem;
+    background: rgba(37, 99, 235, 0.03);
+    border-radius: 8px;
+    border: 1px solid rgba(37, 99, 235, 0.08);
+    transition: all 0.3s ease;
+    cursor: pointer;
 }
 
-.dsa-group h4 {
-    margin: 0;
-    font-size: 1rem;
-    min-width: 140px;
+.dsa-group:hover {
+    transform: translateX(5px);
+    background: rgba(37, 99, 235, 0.08);
+    border-color: rgba(37, 99, 235, 0.2);
     color: var(--primary-color);
-    font-weight: 600;
-    text-align: left;
 }
 
-.dsa-group p {
-    margin: 0;
-    font-size: 0.98rem;
-    color: var(--text-color);
-    font-weight: 400;
-    text-align: left;
+.dsa-group h4, .dsa-group p {
+    transition: color 0.3s ease;
+}
+
+.dsa-group:hover h4, .dsa-group:hover p {
+    color: var(--primary-color);
 }
 
 /* Projects Section */
