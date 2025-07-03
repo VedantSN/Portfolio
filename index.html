@@ -26,7 +26,7 @@
     <section id="home">
         <div class="container">
             <h1>Hi, I'm <span class="highlight">Vedant Nandanwar</span></h1>
-            <p>I'm a <span class="highlight">B.Tech Computer Science</span> student at KIIT University with a strong passion for <span class="highlight">Artificial Intelligence</span> and <span class="highlight">Machine Learning</span>. I enjoy building intelligent applications using Python, Streamlit, and popular ML libraries like scikit-learn, Pytesseract, and NLTK. I've developed projects such as a mental health sentiment analysis tool and a tech blog website. I'm also skilled in web development using HTML, CSS, and WordPress, and experienced with tools like GitHub, MySQL, and Linux. I'm excited to grow by learning, collaborating, and creating impactful tech solutions.</p>
+            <p>I'm a <span class="highlight">B.Tech Computer Science</span> student at KIIT University, passionate about <span class="highlight">Artificial Intelligence</span>, <span class="highlight">Machine Learning</span>, and <span class="highlight">Data Structures & Algorithms</span>. I have a solid foundation in DSA with hands-on implementation, and I enjoy building intelligent applications using Python, Java, and C. My experience spans ML libraries (scikit-learn, NLTK, Pytesseract), web development (HTML, CSS, WordPress), and developer tools (Git, GitHub, VS Code, Jupyter, Google Colab). I've developed projects like a mental health sentiment analysis tool and a tech blog website, and I'm skilled in cloud and web hosting. I'm eager to keep learning, collaborating, and creating impactful tech solutions.</p>
         </div>
     </section>
     <div class="section-divider"></div>
@@ -45,21 +45,33 @@
                     </ul>
                 </div>
                 <div class="skill-category">
-                    <h3>Machine Learning</h3>
+                    <h3>ML Libraries & Tools</h3>
                     <ul>
-                        <li>Numpy</li>
+                        <li>NumPy</li>
                         <li>Pandas</li>
                         <li>Matplotlib</li>
                         <li>Sklearn</li>
-                        <li>OCR</li>
                         <li>Streamlit</li>
+                        <li>OCR</li>
                         <li>NLP</li>
                     </ul>
                 </div>
                 <div class="skill-category">
-                    <h3>Database</h3>
+                    <h3>Developer Tools</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>VS Code</li>
+                        <li>Jupyter</li>
+                        <li>Google Colab</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Database, Cloud & Hosting</h3>
                     <ul>
                         <li>MySQL</li>
+                        <li>Google Cloud Platform (Foundational)</li>
+                        <li>Web Hosting (WordPress + domain setup)</li>
                     </ul>
                 </div>
                 <div class="skill-category">
@@ -71,19 +83,8 @@
                     </ul>
                 </div>
                 <div class="skill-category">
-                    <h3>Dev Tools</h3>
-                    <ul>
-                        <li>Git</li>
-                        <li>GitHub</li>
-                        <li>VSCode</li>
-                        <li>Jupyter</li>
-                        <li>Google Colab</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
                     <h3>Other Skills</h3>
                     <ul>
-                        <li>Web Hosting with Hostinger</li>
                         <li>Linux</li>
                         <li>Photography</li>
                         <li>Video Editing</li>
@@ -91,21 +92,22 @@
                 </div>
                 <div class="skill-category dsa-card">
                     <h3>Data Structures & Algorithms</h3>
-                    <ul>
-                        <li>Arrays</li>
-                        <li>2D Arrays</li>
-                        <li>Strings</li>
-                        <li>Sorting</li>
-                        <li>Recursion</li>
-                        <li>OOPs</li>
-                        <li>Divide & Conquer</li>
-                        <li>Time & Space Complexity</li>
-                        <li>ArrayList</li>
-                        <li>Linked List</li>
-                        <li>Stacks</li>
-                        <li>Queues</li>
-                        <li>Hashing</li>
-                    </ul>
+                    <div class="dsa-group">
+                        <h4>Basic Data Structures</h4>
+                        <p>Arrays, 2D Arrays, Strings, Linked List, Stacks, Queues</p>
+                    </div>
+                    <div class="dsa-group">
+                        <h4>Trees & Heaps</h4>
+                        <p>Binary Search Tree, Heap</p>
+                    </div>
+                    <div class="dsa-group">
+                        <h4>Algorithms</h4>
+                        <p>Sorting, Binary Search, Recursion, Divide & Conquer, Greedy Algorithms</p>
+                    </div>
+                    <div class="dsa-group">
+                        <h4>Concepts</h4>
+                        <p>Bit Manipulation, Hashing, Time & Space Complexity, OOPs</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -119,13 +121,24 @@
             <div class="projects-grid">
                 <div class="project-card">
                     <h3>Sentiment Analysis for Mental Health</h3>
-                    <p>A tool that analyzes text to determine emotional state and provide mental health insights using NLP and machine learning techniques.</p>
-                    <a href="https://github.com/VedantSN/Sentiment-Analysis-for-Mental-Health.git" target="_blank" class="project-link">View Project</a>
+                    <p>A web app that analyzes user text to detect mental health sentiment using NLP and machine learning. It features data cleaning, EDA, class imbalance handling (SMOTE), and multi-class classification via SVM. Built with NLTK, spaCy, and TF-IDF, it supports OCR and entity extraction from CSVs, raw text, and images. Deployed on Streamlit with word cloud and heatmap visualizations for better interpretability.</p>
+                    <a href="https://github.com/VedantSN/Sentiment-Analysis-for-Mental-Health" target="_blank" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Retail Mart Sales Prediction</h3>
+                    <p>A predictive model and Streamlit app for forecasting retail sales using XGBoost. It covers the full data science workflow—data preprocessing, feature engineering, model training, and evaluation. The app features interactive visualizations for feature importance and sales trends, providing actionable insights for retail planning, inventory management, and demand forecasting.
+                    </p>
+                    <a href="https://github.com/VedantSN/Retail_Mart_Sales_Prediction" target="_blank" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Predictive Modeling for Diabetes Diagnosis</h3>
+                    <p>An interactive Streamlit app that predicts diabetes risk from medical data using a Support Vector Machine (SVM) model. It includes user-friendly input forms, intuitive visualizations, and performance metrics, making it a practical tool for early risk assessment and awareness for patients and healthcare professionals.</p>
+                    <a href="https://github.com/VedantSN/Diabetes_Prediction" target="_blank" class="project-link">View Project</a>
                 </div>
                 <div class="project-card">
                     <h3>Techuzzi – Technology Website</h3>
-                    <p>A modern tech blog website built with WordPress, featuring articles about the latest technology trends and developments.</p>
-                    <a href="https://techuzzi.com/" target="_blank" class="project-link">View Project</a>
+                    <p>A modern tech blog built with WordPress, featuring articles on technology trends, reviews, and tutorials. Designed for SEO optimization and easy content management, the site is hosted with a custom domain and serves as a curated resource for tech enthusiasts.</p>
+                    <a href="https://techuzzi.tech/" target="_blank" class="project-link">View Project</a>
                 </div>
             </div>
         </div>
@@ -145,7 +158,7 @@
                         <div class="timeline-date">2022 - 2026</div>
                         <h3>Bachelor's Degree in Computer Science</h3>
                         <p class="institution">KIIT University, Bhubaneswar</p>
-                        <p class="details">CGPA: 8.2 (5th Sem)</p>
+                        <p class="details">CGPA: 8.35 (6th Sem)</p>
                     </div>
                 </div>
 
